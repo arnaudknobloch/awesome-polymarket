@@ -40,7 +40,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 
 - [PolyTrack](https://polytrack.org/) - Whale tracking with real-time alerts, leaderboards, P&L tracking, and trader profiles.
 - [Polywhaler](https://polywhaler.com/) - Tracks $10k+ trades with insider activity detection.
-- [PolyTrace](https://polytrace.app) - Free research tool for a tracked subset of public Polymarket fills worth $1,000+, linking recorded trades to market context, proxy-wallet performance evidence, and explicit coverage and freshness limits. Public methodology and Chrome extension.
+- [PolyTrace](https://polytrace.app) - Free tracker for a subset of public Polymarket fills of $1,000+, showing each proxy wallet's P&L and win rate, withheld under 20 decided positions. Coverage limits stated, public methodology, Chrome extension.
 - [Whalefax](https://whalefax.com/) - Whale leaderboard with a full history rebuild that recovers unredeemed losing positions other trackers miss. Free, no signup.
 - [0xinsider](https://0xinsider.com/) - Terminal streaming large Polymarket and Kalshi trades across 7,000+ tracked traders, with trader grades, 40+ quant metrics, and signal scoring. REST API and MCP server.
 - [EdgeMarket](https://edgemarket.co) - Whale alerts within two seconds, smart money leaderboard, and a wallet follow system.
