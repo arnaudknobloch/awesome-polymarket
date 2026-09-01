@@ -72,6 +72,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [PredCopy](https://predcopy.com/) - Whale tracking and composite trader scoring paired with an execution engine that mirrors a followed wallet under configurable bet sizing, max exposure, and stale position exit rules. Telegram alerts and an MCP server.
 - [CopyTrail](https://copytrail.org) - Mirrors top traders' on-chain fills into your own wallet, with a free paper mode to verify fills before going live and an ECIES-encrypted trading key.
 - [FrenFlow](https://www.frenflow.com/copytrading) - Non-custodial block-0 copy trading across Polymarket and Kalshi, mirroring a leader's fills in the same block via mempool detection. Per-trade stake caps and HFT-bot flagging.
+- [Polyfollow](https://www.polyfollow.com/) - Free-to-browse trader search and analytics with public wallet profiles, comparison tools, and automated copy trading. Copied taker trades carry a 0.5% fee; maker orders are free.
 - [Polyman](https://t.me/PolymanApp_bot) - Telegram Mini App and web app for copy-trading top traders with AI-scored signals.
 - [Polycool](https://polycool.live/) - Tracks the top 0.5% of wallets and pushes big trades to Telegram for copy-trading.
 
