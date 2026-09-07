@@ -58,6 +58,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 
 ## General Analytics
 
+- [OddsFront](https://oddsfront.com/) - Free geopolitical news and an interactive map of Polymarket conflict markets, with current probabilities and related reporting.
+
 - [Polyguana](https://polyguana.com/) - Analytics dashboard with trader leaderboards, whale tracking, portfolio performance, and real-time market data.
 - [protodex.io](https://protodex.io) - Free screener and data API indexing 19,300+ markets.
 - [TrueOdds](https://trueodds.win/) - AI fair-value engine, live signal feeds, whale and insider radar, and a trader screener over thousands of wallets.
