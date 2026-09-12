@@ -143,6 +143,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 ## Data APIs & Datasets
 
 - [PMXT](https://github.com/pmxt-dev/pmxt) - Open-source unified API for prediction market data across exchanges.
+- [0xinsider research](https://github.com/0xinsider/research) - SQL, raw query output and market-clustered bootstraps behind four published studies of settled Polymarket trades. The grade study's market-level export is committed, so its confidence intervals reproduce with no database access. CC BY 4.0.
 - [Marketlens](https://marketlens.trade/) - Tick-level historical order book data and trades, with a Python SDK and a backtesting REST API.
 - [Telonex](https://telonex.io/) - Tick-level historical trades, quotes, order books, and on-chain fills via REST API and Python SDK.
 - [polymarket-api](https://github.com/LuciferForge/polymarket-api) - Free, open-source REST API serving 10M+ historical price snapshots.
