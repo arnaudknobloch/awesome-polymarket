@@ -42,7 +42,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [Polywhaler](https://polywhaler.com/) - Tracks $10k+ trades with insider activity detection.
 - [PolyTrace](https://polytrace.app) - Free tracker for a subset of public Polymarket fills of $1,000+, showing each proxy wallet's P&L and win rate, withheld under 20 decided positions. Coverage limits stated, public methodology, Chrome extension.
 - [Whalefax](https://whalefax.com/) - Whale leaderboard with a full history rebuild that recovers unredeemed losing positions other trackers miss. Free, no signup.
-- [0xinsider](https://0xinsider.com/) - Terminal streaming large Polymarket and Kalshi trades across 7,000+ tracked traders, with trader grades, 40+ quant metrics, and signal scoring. REST API and MCP server.
+- [0xinsider](https://0xinsider.com/) - Large Polymarket trades streamed with the grade the buying wallet already held, S to F, rebuilt daily from settled P&L. Sports and esports boards carry the sharp-money read on each game. The grade is tested out of sample and published: across 67,531 buys of $10,000 or more, wallets graded S, A or B beat the price they paid by 1.57 points and D/F lost 2.06, [with the SQL](https://0xinsider.com/research/do-wallet-grades-predict-outcomes). REST API and MCP server; per-game sharp money and alerts are paid.
 - [EdgeMarket](https://edgemarket.co/) - Whale radar over 144k tracked Polymarket wallets, ranked by measured alpha rather than displayed P&L, plus a public register of 5-minute BTC/ETH/SOL/XRP calls confirmed at T+180s with misses included, and funding/OI/liquidations on four venues. Free tier for the register; live signals and Telegram alerts from $39/mo.
 - [WhaleTracker](https://whale-tracker-lovat.vercel.app) - Free real-time whale dashboard with $10K+ trade filtering, hot markets, and buy/sell bias analytics.
 
@@ -154,6 +154,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 ## AI Agents & MCP Servers
 
 - [polymarket-mcp](https://github.com/LuciferForge/polymarket-mcp) - Live market data exposed as MCP tools for Claude and other agents.
+- [0xinsider MCP](https://0xinsider.com/mcp) - 33 read-only tools on one hosted HTTP endpoint: Polymarket trader grades and P&L, large trades, sports and esports boards, and settled outcomes. `@0xinsider/mcp` on npm for stdio clients. API key required.
 - [Predge Whale Data MCP](https://github.com/predgeAI/whale-data-mcp) - MCP server exposing whale trades, win-rate wallet leaderboards, smart-money consensus, and signed settled outcomes. Pay-per-call USDC, no API keys.
 - [Predge Whale Data](https://data.predge.io) - Outcome-verified whale intelligence for agents, with ed25519-signed settled market and sports outcomes verifiable offline.
 - [oracle3](https://github.com/YichengYang-Ethan/oracle3) - Autonomous trading agent with Wang Transform pricing, eight constraint-based arbitrage strategies, and Kelly-sized execution. Apache 2.0, with an SSRN working paper.
