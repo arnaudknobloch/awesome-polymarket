@@ -92,6 +92,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 
 - [predtools](https://predtools.com/) - Source-available trading bots for Polymarket and Kalshi with a strategy library, sold as one-time purchases.
 - [polymarket-bot-lab](https://github.com/oraclemangle/polymarket-bot-lab) - Lab of 11 candidate strategies with CLOB clients, fee models, a backtest engine, and risk gates. Publishes confidence intervals and the strategies that lost money.
+- [Homerun](https://github.com/braedonsaunders/homerun) - Open-source prediction market trading platform for Polymarket and Kalshi: Python strategies, backtesting, paper and live trading, real-time dashboard.
 - [antflow](https://antflow.live) - Autonomous trading bot with risk guardrails and disciplined exits, results shown on a public live wallet rather than a backtest.
 - [polymarket-settlement-bot](https://github.com/LuciferForge/polymarket-settlement-bot) - Auto-redeems resolved positions back to USDC.
 
