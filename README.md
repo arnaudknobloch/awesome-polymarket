@@ -74,6 +74,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [FrenFlow](https://www.frenflow.com/copytrading) - Non-custodial block-0 copy trading across Polymarket and Kalshi, mirroring a leader's fills in the same block via mempool detection. Per-trade stake caps and HFT-bot flagging.
 - [Polyman](https://t.me/PolymanApp_bot) - Telegram Mini App and web app for copy-trading top traders with AI-scored signals.
 - [Polycool](https://polycool.live/) - Tracks the top 0.5% of wallets and pushes big trades to Telegram for copy-trading.
+- [PolyBot](https://polybot.trading/) - Telegram interface for copying public Polymarket traders through a user-controlled Safe wallet, with configurable sizing, market filters, and daily caps. Standard fee: 1% of successful trade volume.
 
 ## Trading Bots & Automation
 
