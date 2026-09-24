@@ -42,7 +42,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [Polywhaler](https://polywhaler.com/) - Tracks $10k+ trades with insider activity detection.
 - [PolyTrace](https://polytrace.app) - Free tracker for a subset of public Polymarket fills of $1,000+, showing each proxy wallet's P&L and win rate, withheld under 20 decided positions. Coverage limits stated, public methodology, Chrome extension.
 - [Whalefax](https://whalefax.com/) - Whale leaderboard with a full history rebuild that recovers unredeemed losing positions other trackers miss. Free, no signup.
-- [0xinsider](https://0xinsider.com/) - Terminal streaming large Polymarket and Kalshi trades across 7,000+ tracked traders, with trader grades, 40+ quant metrics, and signal scoring. REST API and MCP server.
+- [0xinsider](https://0xinsider.com/) - Large Polymarket trades streamed with the buying wallet's grade, S to F, rebuilt daily from settled P&L; the grade is [tested out of sample](https://0xinsider.com/research/do-wallet-grades-predict-outcomes) across 67,531 buys of $10,000 or more, with the SQL published. REST API and hosted MCP server.
 - [EdgeMarket](https://edgemarket.co/) - Whale radar over 144k tracked Polymarket wallets, ranked by measured alpha rather than displayed P&L, plus a public register of 5-minute BTC/ETH/SOL/XRP calls confirmed at T+180s with misses included, and funding/OI/liquidations on four venues. Free tier for the register; live signals and Telegram alerts from $39/mo.
 - [WhaleTracker](https://whale-tracker-lovat.vercel.app) - Free real-time whale dashboard with $10K+ trade filtering, hot markets, and buy/sell bias analytics.
 
@@ -144,6 +144,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 ## Data APIs & Datasets
 
 - [PMXT](https://github.com/pmxt-dev/pmxt) - Open-source unified API for prediction market data across exchanges.
+- [0xinsider research](https://github.com/0xinsider/research) - SQL, raw query output and market-clustered bootstraps behind four published studies of settled Polymarket trades. The grade study's market-level export is committed, so its confidence intervals reproduce with no database access. CC BY 4.0.
 - [Marketlens](https://marketlens.trade/) - Tick-level historical order book data and trades, with a Python SDK and a backtesting REST API.
 - [Telonex](https://telonex.io/) - Tick-level historical trades, quotes, order books, and on-chain fills via REST API and Python SDK.
 - [polymarket-api](https://github.com/LuciferForge/polymarket-api) - Free, open-source REST API serving 10M+ historical price snapshots.
