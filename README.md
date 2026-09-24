@@ -172,7 +172,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [pm.wiki](https://pm.wiki/) - Independent prediction market directory covering 350+ tools and platforms with side-by-side comparisons.
 - [Polymark.et](https://polymark.et/) - Directory of Polymarket tools and products.
 - [LaunchPoly](https://launchpoly.com) - Community-voted directory of bots, analytics, alerts, trackers, and extensions.
-- [POLBOTS](https://polbots.com/) - Directory of Polymarket trading bots and tools with screenshots, pricing, and hands-on vetting notes per listing; submissions with no working product behind the landing page are declined.
+- [POLBOTS](https://polbots.com/) - Directory of Polymarket trading bots and tools with screenshots and pricing per listing; submissions with no working product behind the landing page are declined.
 
 ## Educational Resources
 
