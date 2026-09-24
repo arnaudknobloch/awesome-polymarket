@@ -75,6 +75,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Polyfollow](https://www.polyfollow.com/) - Free-to-browse trader search and analytics with public wallet profiles, comparison tools, and automated copy trading. Copied taker trades carry a 0.5% fee; maker orders are free.
 - [Polyman](https://t.me/PolymanApp_bot) - Telegram Mini App and web app for copy-trading top traders with AI-scored signals.
 - [Polycool](https://polycool.live/) - Tracks the top 0.5% of wallets and pushes big trades to Telegram for copy-trading.
+- [PolyBot](https://polybot.trading/) - Telegram interface for copying public Polymarket traders through a user-controlled Safe wallet, with configurable sizing, market filters, and daily caps. Standard fee: 1% of successful trade volume.
 
 ## Trading Bots & Automation
 
