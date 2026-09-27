@@ -107,6 +107,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 
 - [PredRadar](https://predradar.com/) - Cross-platform aggregator for Polymarket, Kalshi, and Betfair with live prices, an arbitrage scanner, a JSON API, and an MCP server.
 - [OddsShift](https://oddsshift.com/) - Comparison across Polymarket and Kalshi with AI analysis of price divergences, arbitrage detection, and smart money tracking.
+- [VoxOdds](https://voxodds.com/polymarket-vs-kalshi) - Compares reviewed Polymarket and Kalshi contract pairs by all-in price for a set budget, fees included, and only pairs markets whose resolution rules match. Free web page, JSON API and a no-key MCP server.
 - [PredMart](https://predmart.com) - Non-custodial margin account: trade with up to 5x leverage, or borrow USDC against prediction-market shares you already hold. Built on Polygon.
 
 ## Alerts
@@ -152,6 +153,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-historical-data](https://github.com/LuciferForge/polymarket-historical-data) - Open historical price dataset, 19M+ snapshots across 19,300+ markets.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - CC-BY-4.0 historical tape: 271M CEX trades and ~61M Polymarket WebSocket events with a dual-vantage overlap window for latency research.
 - [Matched book sample](https://huggingface.co/datasets/Coyevans/mlb-polymarket-kalshi-matched-book-sample) - Order book sample labeled with settled outcomes, cross-matched against Kalshi.
+- [polymarket-kalshi-price-gaps](https://github.com/softdevfz/polymarket-kalshi-price-gaps) - Daily CSV snapshots of what the same contract costs on Polymarket and on Kalshi for a $100 order, fees included, plus a per-day summary of which venue was cheaper. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 
 ## AI Agents & MCP Servers
