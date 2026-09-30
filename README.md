@@ -76,6 +76,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Polyman](https://t.me/PolymanApp_bot) - Telegram Mini App and web app for copy-trading top traders with AI-scored signals.
 - [Polycool](https://polycool.live/) - Tracks the top 0.5% of wallets and pushes big trades to Telegram for copy-trading.
 - [PolyBot](https://polybot.trading/) - Telegram interface for copying public Polymarket traders through a user-controlled Safe wallet, with configurable sizing, market filters, and daily caps. Standard fee: 1% of successful trade volume.
+- [Garnet](https://github.com/AndreySchurko/garnet-polymarket) - Self-hosted copy-trading engine in Rust that mirrors wallets you choose. Detects their trades three independent ways (RTDS websocket, /activity polling, Polygon logs), caps exposure per event, stops on a daily loss, and runs a shadow mode at real fees beside live. Telegram control; keys stay on your server. Source-available (BUSL-1.1), free for individuals.
 
 ## Trading Bots & Automation
 
