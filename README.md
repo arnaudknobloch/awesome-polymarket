@@ -148,6 +148,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [0xinsider research](https://github.com/0xinsider/research) - SQL, raw query output and market-clustered bootstraps behind four published studies of settled Polymarket trades. The grade study's market-level export is committed, so its confidence intervals reproduce with no database access. CC BY 4.0.
 - [Marketlens](https://marketlens.trade/) - Tick-level historical order book data and trades, with a Python SDK and a backtesting REST API.
 - [Telonex](https://telonex.io/) - Tick-level historical trades, quotes, order books, and on-chain fills via REST API and Python SDK.
+- [outcometick](https://outcometick.com/) - Tick-level history of the 5- and 15-minute crypto Up/Down markets, with the Chainlink streams they settle on, order books, trade prints and each market's strike and outcome. Paid API with a free sample day.
 - [polymarket-api](https://github.com/LuciferForge/polymarket-api) - Free, open-source REST API serving 10M+ historical price snapshots.
 - [polymarket-historical-data](https://github.com/LuciferForge/polymarket-historical-data) - Open historical price dataset, 19M+ snapshots across 19,300+ markets.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - CC-BY-4.0 historical tape: 271M CEX trades and ~61M Polymarket WebSocket events with a dual-vantage overlap window for latency research.
