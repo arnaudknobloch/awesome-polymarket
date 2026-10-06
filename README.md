@@ -55,6 +55,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Cobia Picks](https://cobiapicks.com) - Scores signals from proven wallets with a trained model, then grades every pick in public. 2,000+ resolved, losses included.
 - [polymarket-honest-tools](https://github.com/yntymacho/polymarket-honest-tools) - Copy-trade validator that tests whether a wallet's edge survives realistic fills, fees, and out-of-sample data before you copy it.
 - [polymarket-pnl](https://github.com/LuciferForge/polymarket-pnl) - Command-line P&L breakdown for any wallet, no API keys required.
+- [PMWallets](https://pmwallets.com/) - Polymarket trader leaderboard computed from its own Polygon ledger, with wallets that trade as one scored as one trader, a 95% confidence interval on each win rate, and profit shown without the trader's best market. Free to browse; the WebSocket/webhook feed of followed traders' fills is paid ($0.01 per wallet per hour) and drives an MIT-licensed copy-trading bot.
 
 ## General Analytics
 
