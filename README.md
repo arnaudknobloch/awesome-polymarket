@@ -66,6 +66,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Airavat](https://airavat.xyz/) - Trading analytics with on-chain trader scoring, real-time trade filters, and paper or live auto-trade execution.
 - [Dune Analytics](https://dune.com/browse/dashboards?q=polymarket) - Community dashboards for volume, open interest, and user analytics.
 - [ClearMarket](https://github.com/JDSource/clearmarket) - Intelligence layer adding parsed resolution logic, catalyst calendars, and cross-platform mapping to raw Polymarket and Kalshi data.
+- [Kahyna](https://kahyna.com/) - Prediction-market terminal: markets from Polymarket, Kalshi, Manifold, PredictIt and Limitless in one book, matched by outcome, with the cost of a $100 order where it reads the order book, its own probability estimates, and Polymarket wallet records judged against the odds they paid, under a short label, never a full address. Free to read within a daily lookup limit (5 a day without an account, 15 with one); Pro is paid, unlimited and adds alerts.
 
 ## Copy Trading
 
