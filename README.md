@@ -55,6 +55,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [0xinsider](https://0xinsider.com/) - Grades Polymarket wallets S to F, rebuilt daily from settled P&L and [tested out of sample](https://0xinsider.com/research/do-wallet-grades-predict-outcomes) across 67,531 buys of $10,000 or more, with the SQL published. The grade appears on sports and esports boards showing how much graded money holds each side of a game, and beside every large trade; free for the leaderboard, trader profiles and grades, $25/wk for the live feed, REST API and hosted MCP server.
 - [polymarket-honest-tools](https://github.com/yntymacho/polymarket-honest-tools) - Copy-trade validator that tests whether a wallet's edge survives realistic fills, fees, and out-of-sample data before you copy it.
 - [polymarket-pnl](https://github.com/LuciferForge/polymarket-pnl) - Command-line P&L breakdown for any wallet, no API keys required.
+- [PMWallets](https://pmwallets.com/) - Polymarket trader leaderboard computed from its own Polygon ledger, with wallets that trade as one scored as one trader, a 95% confidence interval on each win rate, and profit shown without the trader's best market. Free to browse; the WebSocket/webhook feed of followed traders' fills is paid ($0.01 per wallet per hour) and drives an MIT-licensed copy-trading bot.
 
 ## General Analytics
 
