@@ -159,6 +159,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Matched book sample](https://huggingface.co/datasets/Coyevans/mlb-polymarket-kalshi-matched-book-sample) - Order book sample labeled with settled outcomes, cross-matched against Kalshi.
 - [polymarket-kalshi-price-gaps](https://github.com/softdevfz/polymarket-kalshi-price-gaps) - Daily CSV snapshots of what the same contract costs on Polymarket and on Kalshi for a $100 order, fees included, plus a per-day summary of which venue was cheaper. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
+- [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
 
 ## AI Agents & MCP Servers
 
