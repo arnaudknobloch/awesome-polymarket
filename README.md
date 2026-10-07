@@ -42,7 +42,6 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [Polywhaler](https://polywhaler.com/) - Tracks $10k+ trades with insider activity detection.
 - [PolyTrace](https://polytrace.app) - Free tracker for a subset of public Polymarket fills of $1,000+, showing each proxy wallet's P&L and win rate, withheld under 20 decided positions. Coverage limits stated, public methodology, Chrome extension.
 - [Whalefax](https://whalefax.com/) - Whale leaderboard with a full history rebuild that recovers unredeemed losing positions other trackers miss. Free, no signup.
-- [0xinsider](https://0xinsider.com/) - Large Polymarket trades streamed with the buying wallet's grade, S to F, rebuilt daily from settled P&L; the grade is [tested out of sample](https://0xinsider.com/research/do-wallet-grades-predict-outcomes) across 67,531 buys of $10,000 or more, with the SQL published. REST API and hosted MCP server.
 - [EdgeMarket](https://edgemarket.co/) - Whale radar over 144k tracked Polymarket wallets, ranked by measured alpha rather than displayed P&L, plus a public register of 5-minute BTC/ETH/SOL/XRP calls confirmed at T+180s with misses included, and funding/OI/liquidations on four venues. Free tier for the register; live signals and Telegram alerts from $39/mo.
 - [WhaleTracker](https://whale-tracker-lovat.vercel.app) - Free real-time whale dashboard with $10K+ trade filtering, hot markets, and buy/sell bias analytics.
 
@@ -53,6 +52,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [PolyScore](https://polytrading.app) - Skill-vs-luck wallet ratings (0-100) built from full on-chain trade history. Free wallet check and a scored leaderboard with bots filtered out.
 - [OVERROUND](https://overround.pro/) - Grades wallets on price-relative accuracy over independent resolved events, and publishes a graded ledger of every alert sent, losses included.
 - [Cobia Picks](https://cobiapicks.com) - Scores signals from proven wallets with a trained model, then grades every pick in public. 2,000+ resolved, losses included.
+- [0xinsider](https://0xinsider.com/) - Grades Polymarket wallets S to F, rebuilt daily from settled P&L and [tested out of sample](https://0xinsider.com/research/do-wallet-grades-predict-outcomes) across 67,531 buys of $10,000 or more, with the SQL published. The grade appears on sports and esports boards showing how much graded money holds each side of a game, and beside every large trade; free for the leaderboard, trader profiles and grades, $25/wk for the live feed, REST API and hosted MCP server.
 - [polymarket-honest-tools](https://github.com/yntymacho/polymarket-honest-tools) - Copy-trade validator that tests whether a wallet's edge survives realistic fills, fees, and out-of-sample data before you copy it.
 - [polymarket-pnl](https://github.com/LuciferForge/polymarket-pnl) - Command-line P&L breakdown for any wallet, no API keys required.
 
