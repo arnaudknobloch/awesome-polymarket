@@ -152,6 +152,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-historical-data](https://github.com/LuciferForge/polymarket-historical-data) - Open historical price dataset, 19M+ snapshots across 19,300+ markets.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - CC-BY-4.0 historical tape: 271M CEX trades and ~61M Polymarket WebSocket events with a dual-vantage overlap window for latency research.
 - [Matched book sample](https://huggingface.co/datasets/Coyevans/mlb-polymarket-kalshi-matched-book-sample) - Order book sample labeled with settled outcomes, cross-matched against Kalshi.
+- [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 
 ## AI Agents & MCP Servers
