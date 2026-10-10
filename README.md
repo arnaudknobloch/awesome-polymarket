@@ -44,6 +44,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [Whalefax](https://whalefax.com/) - Whale leaderboard with a full history rebuild that recovers unredeemed losing positions other trackers miss. Free, no signup.
 - [EdgeMarket](https://edgemarket.co/) - Whale radar over 144k tracked Polymarket wallets, ranked by measured alpha rather than displayed P&L, plus a public register of 5-minute BTC/ETH/SOL/XRP calls confirmed at T+180s with misses included, and funding/OI/liquidations on four venues. Free tier for the register; live signals and Telegram alerts from $39/mo.
 - [WhaleTracker](https://whale-tracker-lovat.vercel.app) - Free real-time whale dashboard with $10K+ trade filtering, hot markets, and buy/sell bias analytics.
+- [sg.tips](https://sg.tips/) - Live feed of new orders from Polymarket and Kalshi traders who are profitable on settled results, with each trader's profit, win rate, ROI and order history, plus match probability charts for sports and esports. Free to browse; some features need a paid membership.
 
 ## Trader Scoring & Wallet Analysis
 
