@@ -103,6 +103,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 ### Strategy & Execution
 
 - [polymarket-bot-lab](https://github.com/oraclemangle/polymarket-bot-lab) - Lab of 11 candidate strategies with CLOB clients, fee models, a backtest engine, and risk gates. Publishes confidence intervals and the strategies that lost money.
+- [pm-hftbacktest](https://github.com/mileswangs/pm-hftbacktest) - High-frequency trading and market-making backtesting for Polymarket, written in Rust with a Python API. Replays tick-level L2 order book and trade data with queue position, latency and fee models. Free and open source (MIT).
 - [antflow](https://antflow.live) - Autonomous trading bot with risk guardrails and disciplined exits, results shown on a public live wallet rather than a backtest.
 - [polymarket-settlement-bot](https://github.com/LuciferForge/polymarket-settlement-bot) - Auto-redeems resolved positions back to USDC.
 
@@ -159,6 +160,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Telonex](https://telonex.io/) - Tick-level historical trades, quotes, order books, and on-chain fills via REST API and Python SDK.
 - [TickFoundry](https://tickfoundry.com/polymarket-historical-data) - Historical Polymarket order books (top of book and L2 on every change, 25 levels on Premium and up), trades and on-chain fills, as parquet or CSV per market per day plus a REST API. Paid plans; a one-day sample bundle downloads free without an account.
 - [outcometick](https://outcometick.com/) - Tick-level history of the 5- and 15-minute crypto Up/Down markets, with the Chainlink streams they settle on, order books, trade prints and each market's strike and outcome. Paid API with a free sample day.
+- [PMData](https://pmdata.dev/) - The most granular Polymarket historical data: tick-by-tick order book snapshots & updates, trades, and Chainlink data. Colocated collection, ready for backtesting. Free tier of 600 downloads then 50 a month for data older than three weeks; $49/month for current data.
 - [polymarket-api](https://github.com/LuciferForge/polymarket-api) - Free, open-source REST API serving 10M+ historical price snapshots.
 - [polymarket-historical-data](https://github.com/LuciferForge/polymarket-historical-data) - Open historical price dataset, 19M+ snapshots across 19,300+ markets.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - CC-BY-4.0 historical tape: 271M CEX trades and ~61M Polymarket WebSocket events with a dual-vantage overlap window for latency research.
