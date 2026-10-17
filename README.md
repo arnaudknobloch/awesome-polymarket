@@ -184,6 +184,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Polymark.et](https://polymark.et/) - Directory of Polymarket tools and products.
 - [LaunchPoly](https://launchpoly.com) - Community-voted directory of bots, analytics, alerts, trackers, and extensions.
 - [POLBOTS](https://polbots.com/) - Directory of Polymarket trading bots and tools with screenshots and pricing per listing; submissions with no working product behind the landing page are declined.
+- [Prediction Market Use Cases](https://prediction-market-use-cases.vercel.app/platform/polymarket/) - Free directory of public Polymarket and Kalshi bots, AI agents and data tools; every entry links its source code and shows GitHub stars and the date it was added. No signup.
 
 ## Educational Resources
 
