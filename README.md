@@ -65,6 +65,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [antflow](https://antflow.live) - Autonomous trading bot with risk guardrails and disciplined exits, results shown on a public live wallet rather than a backtest.
 - [polymarket-settlement-bot](https://github.com/LuciferForge/polymarket-settlement-bot) - Auto-redeems resolved positions back to USDC.
 - [Melbo](https://melbo.io/) - Melbo is a non-custodial interface to prediction markets: trade Yes/No shares on real-world events, where the price shows the market's probability. Free to use; trading fees (1% on market orders + liquidity fee).
+- [pm-hftbacktest](https://github.com/mileswangs/pm-hftbacktest) - High-frequency trading and market-making backtesting for Polymarket, written in Rust with a Python API. Replays tick-level L2 order book and trade data with queue position, latency and fee models. Free and open source (MIT).
 
 ### Official
 
@@ -118,6 +119,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [ClearMarket](https://github.com/JDSource/clearmarket) - Intelligence layer adding parsed resolution logic, catalyst calendars, and cross-platform mapping to raw Polymarket and Kalshi data.
 - [Kahyna](https://kahyna.com/) - Prediction-market terminal: markets from Polymarket, Kalshi, Manifold, PredictIt and Limitless in one book, matched by outcome, with the cost of a $100 order where it reads the order book, its own probability estimates, and Polymarket wallet records judged against the odds they paid, under a short label, never a full address. Free to read within a daily lookup limit (5 a day without an account, 15 with one); Pro is paid, unlimited and adds alerts.
 - [Glypse](https://glypse.ai/) - Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
+- [Perfect Clock](https://perfectclock.cc/polymarket) - Timeline calendars that show Polymarket markets next to the events they resolve on (F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches), in the viewer's time zone.
+- [TrueHold](https://www.truehold.xyz/track/polymarket) - Portfolio tracker that reads Polymarket positions, resolved wins and realised P&L from a wallet address and counts them next to the same person's wallets and exchange accounts. Free to track; private beta with a guest demo.
 
 ## Alerts
 
@@ -167,6 +170,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-kalshi-price-gaps](https://github.com/softdevfz/polymarket-kalshi-price-gaps) - Daily CSV snapshots of what the same contract costs on Polymarket and on Kalshi for a $100 order, fees included, plus a per-day summary of which venue was cheaper. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 - [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
+- [PMData](https://pmdata.dev/) - Polymarket historical data at tick level: order book snapshots and updates, trades, and Chainlink data, collected colocated and ready for backtesting. Free tier of 600 downloads then 50 a month for data older than three weeks; $49/month for current data.
 
 ## AI Agents & MCP Servers
 
