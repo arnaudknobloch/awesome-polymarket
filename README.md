@@ -172,6 +172,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Predge Whale Data](https://data.predge.io) - Outcome-verified whale intelligence for agents, with ed25519-signed settled market and sports outcomes verifiable offline.
 - [oracle3](https://github.com/YichengYang-Ethan/oracle3) - Autonomous trading agent with Wang Transform pricing, eight constraint-based arbitrage strategies, and Kelly-sized execution. Apache 2.0, with an SSRN working paper.
 - [Lightning Rod Foresight Models](https://www.lightningrod.ai/models) - Forecasting models behind an OpenAI-compatible API.
+- [Krexa](https://www.krexa.xyz) - Turns a trading idea, post or video into fixed rules, backtests and paper-trades them free, then runs a Polymarket agent with its own MPC wallet and per-order limits enforced in code. Also trades Hyperliquid, major CEXs and Solana DEXs; includes an MCP server and agent skill.
 
 ## Browser Extensions
 
