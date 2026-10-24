@@ -81,6 +81,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 
 - [Polymarket Weather Command Center](https://github.com/testedmedia/polymarket-weather-command-center) - Apache-2.0 dashboard for temperature markets: multi-model forecasts, live ASOS/METAR airport observations, bucket probabilities, and market edge across 41 cities.
 - [WinWeatherBot](https://winweatherbot.com) - Automated weather trading with a 138-model forecast ensemble, correlation-aware sizing, and sub-200ms execution.
+- [OpenThomas](https://github.com/PredictionMarketTrader/openthomas) - Open-source (MIT) Python AI agent (`pip install openthomas`) that trades weather and temperature markets on Polymarket and Kalshi using a 7-model forecast consensus, station-bias hindcasting, and fractional Kelly sizing.
 - [polymarket-odds-scanner](https://github.com/LuciferForge/polymarket-odds-scanner) - Finds mispriced sports markets by comparing Polymarket prices against sportsbook odds.
 
 ## Whale Tracking
