@@ -189,6 +189,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 
 ## Directories
 
+- [PredictionMarket.tools](https://www.predictionmarket.tools/) - Free directory of Polymarket and Kalshi tools with platform comparisons, calculators, and bot building guides.
 - [pm.wiki](https://pm.wiki/) - Independent prediction market directory covering 350+ tools and platforms with side-by-side comparisons.
 - [Polymark.et](https://polymark.et/) - Directory of Polymarket tools and products.
 - [LaunchPoly](https://launchpoly.com) - Community-voted directory of bots, analytics, alerts, trackers, and extensions.
