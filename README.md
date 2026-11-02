@@ -55,7 +55,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [VoxOdds](https://voxodds.com/polymarket-vs-kalshi) - Compares reviewed Polymarket and Kalshi contract pairs by all-in price for a set budget, fees included, and only pairs markets whose resolution rules match. Free web page and no-key MCP server; JSON API free for non-commercial use.
 - [PredMart](https://predmart.com) - Non-custodial margin account: trade with up to 5x leverage, or borrow USDC against prediction-market shares you already hold. Built on Polygon.
 - [OddsFantasy](https://oddsfantasy.com/) - Scans Polymarket and Kalshi sports markets against Pinnacle's no-vig line and 50+ sportsbooks and exchanges for value bets and arbs, with taker fees and commission taken off first. Free terminal, calculators and feed previews; full feeds $80 per 30 days.
-- [Bellwether Arbitrage Scanner](https://bellwether.market/tools/kalshi-polymarket-arbitrage/) - Hand-paired Polymarket and Kalshi markets (Senate, governor, Fed, 2028, major sports titles) with both books' bid and ask per outcome, the cheapest YES+NO lock, and net per $1 after both venues' taker fees. Leaves out pairs whose resolution terms differ. Free, no signup, refreshed every 15 minutes.
+- [Bellwether Arbitrage Scanner](https://bellwether.market/tools/kalshi-polymarket-arbitrage/) - Hand-paired Polymarket and Kalshi markets with both books' bid/ask per outcome, the cheapest YES+NO lock, and net per $1 after both venues' taker fees. Free, no signup, refreshed every 15 minutes.
 
 ## Trading Bots & Automation
 
