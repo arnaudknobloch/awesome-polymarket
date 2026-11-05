@@ -123,6 +123,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Glypse](https://glypse.ai/) - Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
 - [Perfect Clock](https://perfectclock.cc/polymarket) - Timeline calendars that show Polymarket markets next to the events they resolve on (F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches), in the viewer's time zone.
 - [TrueHold](https://www.truehold.xyz/track/polymarket) - Portfolio tracker that reads Polymarket positions, resolved wins and realised P&L from a wallet address and counts them next to the same person's wallets and exchange accounts. Free to track; private beta with a guest demo.
+- [Kalshi BTC 15-minute TradingView indicators](https://gitlab.com/cotes-ai-public/companion-indicators) - Free, open-source Pine Script indicators for Kalshi's BTC 15-minute markets (KXBTC15M): window shading, each window's approximated strike with a countdown and result colors, and BTC's distance from the strike.
 
 ## Alerts
 
@@ -173,6 +174,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-kalshi-price-gaps](https://github.com/softdevfz/polymarket-kalshi-price-gaps) - Daily CSV snapshots of what the same contract costs on Polymarket and on Kalshi for a $100 order, fees included, plus a per-day summary of which venue was cheaper. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 - [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
+- [SpectralEdge Public Signals API](https://spectralbot.cotes.ai/docs/) - REST and SSE API for Kalshi's BTC 15-minute markets (KXBTC15M): live markets plus model signals with confidence, entry price and edge, graded win or loss after settlement. Free trial, then paid.
+- [Kalshi BTC 15-minute win rate by price](https://spectralbot.cotes.ai/learn/how-often-do-90-cent-contracts-win/) - Free CSV of how often YES won by 5¢ price bucket and time left, across 9,312 settled KXBTC15M markets.
 - [PMData](https://pmdata.dev/) - Polymarket historical data at tick level: order book snapshots and updates, trades, and Chainlink data, collected colocated and ready for backtesting. Free tier of 600 downloads then 50 a month for data older than three weeks; $49/month for current data.
 
 ## AI Agents & MCP Servers
