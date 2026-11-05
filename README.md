@@ -123,6 +123,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Glypse](https://glypse.ai/) - Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
 - [Perfect Clock](https://perfectclock.cc/polymarket) - Timeline calendars that show Polymarket markets next to the events they resolve on (F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches), in the viewer's time zone.
 - [TrueHold](https://www.truehold.xyz/track/polymarket) - Portfolio tracker that reads Polymarket positions, resolved wins and realised P&L from a wallet address and counts them next to the same person's wallets and exchange accounts. Free to track; private beta with a guest demo.
+- [Kalshi BTC 15-minute TradingView indicators](https://gitlab.com/cotes-ai-public/companion-indicators) - Free, open-source Pine Script indicators for Kalshi's BTC 15-minute markets (KXBTC15M): window shading, each window's approximated strike with a countdown and result colors, and BTC's distance from the strike.
 
 ## Alerts
 
