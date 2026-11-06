@@ -124,6 +124,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Perfect Clock](https://perfectclock.cc/polymarket) - Timeline calendars that show Polymarket markets next to the events they resolve on (F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches), in the viewer's time zone.
 - [TrueHold](https://www.truehold.xyz/track/polymarket) - Portfolio tracker that reads Polymarket positions, resolved wins and realised P&L from a wallet address and counts them next to the same person's wallets and exchange accounts. Free to track; private beta with a guest demo.
 
+- [PolyEase](https://polyease.app) - Independent third-party Polymarket client for market discovery, followed markets, portfolio and position tracking, and notifications.
+
 ## Alerts
 
 - [PolyAlertHub](https://polyalerthub.com/) - Alerts on profitable traders, whales, and market trends, delivered by email or Telegram.
