@@ -55,6 +55,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [PredMart](https://predmart.com) - Non-custodial margin account: trade with up to 5x leverage, or borrow USDC against prediction-market shares you already hold. Built on Polygon.
 - [OddsFantasy](https://oddsfantasy.com/) - Scans Polymarket and Kalshi sports markets against Pinnacle's no-vig line and 50+ sportsbooks and exchanges for value bets and arbs, with taker fees and commission taken off first. Free terminal, calculators and feed previews; full feeds $80 per 30 days.
 - [Bellwether Arbitrage Scanner](https://bellwether.market/tools/kalshi-polymarket-arbitrage/) - Hand-paired Polymarket and Kalshi markets with both books' bid/ask per outcome, the cheapest YES+NO lock, and net per $1 after both venues' taker fees. Free, no signup, refreshed every 15 minutes.
+- [Kalshi vs Polymarket US Fee Calculator](https://evdesk.ai/tools/kalshi-vs-polymarket-fee-calculator) - Works out the taker fee on the same order at Kalshi and at Polymarket US from a price, a size and your 30 day volume tier, using the Polymarket US tiers in force since Nov 6, 2026 (0.095 down to 0.0695), and shows the gap for each tier. Free, no signup, runs in the browser.
 
 ## Trading Bots & Automation
 
