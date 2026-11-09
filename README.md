@@ -52,7 +52,6 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 
 - [PredRadar](https://predradar.com/) - Cross-platform aggregator for Polymarket, Kalshi, and Betfair with live prices, an arbitrage scanner, a JSON API, and an MCP server.
 - [OddsShift](https://oddsshift.com/) - Comparison across Polymarket and Kalshi with AI analysis of price divergences, arbitrage detection, and smart money tracking.
-- [VoxOdds](https://voxodds.com/polymarket-vs-kalshi) - Compares reviewed Polymarket and Kalshi contract pairs by all-in price for a set budget, fees included, and only pairs markets whose resolution rules match. Free web page and no-key MCP server; JSON API free for non-commercial use.
 - [PredMart](https://predmart.com) - Non-custodial margin account: trade with up to 5x leverage, or borrow USDC against prediction-market shares you already hold. Built on Polygon.
 - [OddsFantasy](https://oddsfantasy.com/) - Scans Polymarket and Kalshi sports markets against Pinnacle's no-vig line and 50+ sportsbooks and exchanges for value bets and arbs, with taker fees and commission taken off first. Free terminal, calculators and feed previews; full feeds $80 per 30 days.
 - [Bellwether Arbitrage Scanner](https://bellwether.market/tools/kalshi-polymarket-arbitrage/) - Hand-paired Polymarket and Kalshi markets with both books' bid/ask per outcome, the cheapest YES+NO lock, and net per $1 after both venues' taker fees. Free, no signup, refreshed every 15 minutes.
@@ -62,7 +61,6 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 ### Strategy & Execution
 
 - [predtools](https://predtools.com/) - Source-available trading bots for Polymarket and Kalshi with a strategy library, sold as one-time purchases.
-- [polymarket-bot-lab](https://github.com/oraclemangle/polymarket-bot-lab) - Lab of 11 candidate strategies with CLOB clients, fee models, a backtest engine, and risk gates. Publishes confidence intervals and the strategies that lost money.
 - [antflow](https://antflow.live) - Autonomous trading bot with risk guardrails and disciplined exits, results shown on a public live wallet rather than a backtest.
 - [polymarket-settlement-bot](https://github.com/LuciferForge/polymarket-settlement-bot) - Auto-redeems resolved positions back to USDC.
 - [Melbo](https://melbo.io/) - Melbo is a non-custodial interface to prediction markets: trade Yes/No shares on real-world events, where the price shows the market's probability. Free to use; trading fees (1% on market orders + liquidity fee).
@@ -130,7 +128,6 @@ Tools that try to separate skill from luck before you follow a wallet.
 ## Alerts
 
 - [PolyAlertHub](https://polyalerthub.com/) - Alerts on profitable traders, whales, and market trends, delivered by email or Telegram.
-- [ScoreEdge](https://scoreedge.app) - Sports alerts for Polymarket and Kalshi traders. Rules on score changes, lead flips, and play-by-play events, pushed before markets reprice.
 - [SignalRadar](https://github.com/vahnxu/signalradar) - Zero-dependency Python CLI that monitors markets for probability changes and pushes threshold alerts by webhook, Telegram, or file.
 
 ## API Libraries & SDKs
@@ -173,7 +170,6 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-historical-data](https://github.com/LuciferForge/polymarket-historical-data) - Open historical price dataset, 19M+ snapshots across 19,300+ markets.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - CC-BY-4.0 historical tape: 271M CEX trades and ~61M Polymarket WebSocket events with a dual-vantage overlap window for latency research.
 - [Matched book sample](https://huggingface.co/datasets/Coyevans/mlb-polymarket-kalshi-matched-book-sample) - Order book sample labeled with settled outcomes, cross-matched against Kalshi.
-- [polymarket-kalshi-price-gaps](https://github.com/softdevfz/polymarket-kalshi-price-gaps) - Daily CSV snapshots of what the same contract costs on Polymarket and on Kalshi for a $100 order, fees included, plus a per-day summary of which venue was cheaper. CC BY 4.0.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 - [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
 - [SpectralEdge Public Signals API](https://spectralbot.cotes.ai/docs/) - REST and SSE API for Kalshi's BTC 15-minute markets (KXBTC15M): live markets plus model signals with confidence, entry price and edge, graded win or loss after settlement. Free trial, then paid.
