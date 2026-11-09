@@ -125,6 +125,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [TrueHold](https://www.truehold.xyz/track/polymarket) - Portfolio tracker that reads Polymarket positions, resolved wins and realised P&L from a wallet address and counts them next to the same person's wallets and exchange accounts. Free to track; private beta with a guest demo.
 - [Kalshi BTC 15-minute TradingView indicators](https://gitlab.com/cotes-ai-public/companion-indicators) - Free, open-source Pine Script indicators for Kalshi's BTC 15-minute markets (KXBTC15M): window shading, each window's approximated strike with a countdown and result colors, and BTC's distance from the strike.
 
+- [PolyEase](https://polyease.app) - Independent third-party Polymarket client for market discovery, followed markets, portfolio and position tracking, and notifications.
+
 ## Alerts
 
 - [PolyAlertHub](https://polyalerthub.com/) - Alerts on profitable traders, whales, and market trends, delivered by email or Telegram.
