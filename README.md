@@ -184,6 +184,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [oracle3](https://github.com/YichengYang-Ethan/oracle3) - Autonomous trading agent with Wang Transform pricing, eight constraint-based arbitrage strategies, and Kelly-sized execution. Apache 2.0, with an SSRN working paper.
 - [Lightning Rod Foresight Models](https://www.lightningrod.ai/models) - Forecasting models behind an OpenAI-compatible API.
 - [Krexa](https://www.krexa.xyz) - Turns a trading idea, post or video into fixed rules, backtests and paper-trades them free, then runs a Polymarket agent with its own MPC wallet and per-order limits enforced in code. Also trades Hyperliquid, major CEXs and Solana DEXs; includes an MCP server and agent skill.
+- [OpenFinance MCP](https://openfinance.tech/agents/polymarket-mcp-server) - Hosted MCP server (`https://api.openfinance.tech/agent/mcp`) that lets Claude, ChatGPT, Cursor and other agents search Polymarket events, read odds, order books and the trader leaderboard, look up any wallet's positions and PnL, and place, cancel and redeem orders on the user's own account. Sign-in by OAuth or API key, no KYC on OpenFinance, 0.25% fee per Polymarket trade. Also trades Hyperliquid perps.
 
 ## Browser Extensions
 
