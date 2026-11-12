@@ -42,6 +42,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [CopyTrail](https://copytrail.org) - Mirrors top traders' on-chain fills into your own wallet, with a free paper mode to verify fills before going live and an ECIES-encrypted trading key.
 - [FrenFlow](https://www.frenflow.com/copytrading) - Non-custodial block-0 copy trading across Polymarket and Kalshi, mirroring a leader's fills in the same block via mempool detection. Per-trade stake caps and HFT-bot flagging.
 - [Polyfollow](https://www.polyfollow.com/) - Free-to-browse trader search and analytics with public wallet profiles, comparison tools, and automated copy trading. Copied taker trades carry a 0.5% fee; maker orders are free.
+- [PolyTrackers](https://polytrackers.com/) - Polymarket copy trading for people and AI agents, with trader grades and a separate copy backtest that accounts for fees and slippage. Free includes a $10,000 paper wallet and authorized real trades through MCP; paid plans expand limits, and real taker trades carry a 0.25% fee.
 - [Polyman](https://t.me/PolymanApp_bot) - Telegram Mini App and web app for copy-trading top traders with AI-scored signals.
 - [Polycool](https://polycool.live/) - Tracks the top 0.5% of wallets and pushes big trades to Telegram for copy-trading.
 - [PolyBot](https://polybot.trading/) - Telegram interface for copying public Polymarket traders through a user-controlled Safe wallet, with configurable sizing, market filters, and daily caps. Standard fee: 1% of successful trade volume.
