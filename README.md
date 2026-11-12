@@ -138,6 +138,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-apis](https://pypi.org/project/polymarket-apis/) - Unified APIs with Pydantic models across CLOB, Gamma, Data, Web3, WebSocket, and GraphQL.
 - [polymarket-pandas](https://pypi.org/project/polymarket-pandas/) - Pandas-native SDK wrapping every Polymarket API with DataFrame returns, pandera schemas, async support, and pagination.
 - [polymarket-api-python](https://pypi.org/project/polymarket-api-python/) - Typed client to read Gamma markets, snapshot and stream the order book, and place orders with idempotent client order ids.
+- [pmfees](https://pypi.org/project/pmfees/) - Exact trading fees and break-even for polymarket.com, Polymarket US and Kalshi, as a Python library and CLI. Free, MIT licensed.
 
 ### JavaScript / TypeScript
 
