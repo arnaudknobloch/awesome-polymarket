@@ -106,6 +106,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [polymarket-honest-tools](https://github.com/yntymacho/polymarket-honest-tools) - Copy-trade validator that tests whether a wallet's edge survives realistic fills, fees, and out-of-sample data before you copy it.
 - [polymarket-pnl](https://github.com/LuciferForge/polymarket-pnl) - Command-line P&L breakdown for any wallet, no API keys required.
 - [PMWallets](https://pmwallets.com/) - Polymarket trader leaderboard computed from its own Polygon ledger, with wallets that trade as one scored as one trader, a 95% confidence interval on each win rate, and profit shown without the trader's best market. Free to browse; the WebSocket/webhook feed of followed traders' fills is paid ($0.01 per wallet per hour) and drives an MIT-licensed copy-trading bot.
+- [Polyrank](https://polyrank.app/) - Scores every Polymarket wallet on forecasting skill (calibration, edge over the price paid, risk-adjusted return) instead of P&L. Free wallet lookup without an account; paid plans add all 84 metrics and simulated strategy backtests.
 
 ## General Analytics
 
@@ -184,6 +185,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [oracle3](https://github.com/YichengYang-Ethan/oracle3) - Autonomous trading agent with Wang Transform pricing, eight constraint-based arbitrage strategies, and Kelly-sized execution. Apache 2.0, with an SSRN working paper.
 - [Lightning Rod Foresight Models](https://www.lightningrod.ai/models) - Forecasting models behind an OpenAI-compatible API.
 - [Krexa](https://www.krexa.xyz) - Turns a trading idea, post or video into fixed rules, backtests and paper-trades them free, then runs a Polymarket agent with its own MPC wallet and per-order limits enforced in code. Also trades Hyperliquid, major CEXs and Solana DEXs; includes an MCP server and agent skill.
+- [Polyrank MCP](https://docs.polyrank.app/mcp) - Hosted MCP server at mcp.polyrank.app: 17 read-only tools with no key (wallet skill and calibration, leaderboards, market consensus), 36 with an account.
 
 ## Browser Extensions
 
