@@ -173,6 +173,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Bitquery](https://bitquery.io/) - On-chain analytics and smart contract events for the Polymarket contracts on Polygon.
 - [pdata](https://pdata.world/data) - Polymarket alongside Kalshi and six other venues in one schema: live prices and 24h volume, price history since May 2026, and an archive of resolved markets. Free REST API with no key, an MCP server, nightly bulk files and a public read-only Postgres. CC BY 4.0.
 - [SpectralEdge Public Signals API](https://spectralbot.cotes.ai/docs/) - REST and SSE API for Kalshi's BTC 15-minute markets (KXBTC15M): live markets plus model signals with confidence, entry price and edge, graded win or loss after settlement. Free trial, then paid.
+- [SpectralEdge API examples](https://gitlab.com/cotes-ai-public/spectraledge-examples) - Open-source (MIT) Python and TypeScript sample apps for the SpectralEdge API on Kalshi's BTC 15-minute markets (KXBTC15M): SSE stream clients, Discord webhook alerts, and a read-only order-book logger.
 - [Kalshi BTC 15-minute win rate by price](https://spectralbot.cotes.ai/learn/how-often-do-90-cent-contracts-win/) - Free CSV of how often YES won by 5¢ price bucket and time left, across 9,312 settled KXBTC15M markets.
 - [PMData](https://pmdata.dev/) - Polymarket historical data at tick level: order book snapshots and updates, trades, and Chainlink data, collected colocated and ready for backtesting. Free tier of 600 downloads then 50 a month for data older than three weeks; $49/month for current data.
 
