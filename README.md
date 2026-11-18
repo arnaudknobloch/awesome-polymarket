@@ -175,6 +175,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [SpectralEdge Public Signals API](https://spectralbot.cotes.ai/docs/) - REST and SSE API for Kalshi's BTC 15-minute markets (KXBTC15M): live markets plus model signals with confidence, entry price and edge, graded win or loss after settlement. Free trial, then paid.
 - [Kalshi BTC 15-minute win rate by price](https://spectralbot.cotes.ai/learn/how-often-do-90-cent-contracts-win/) - Free CSV of how often YES won by 5¢ price bucket and time left, across 9,312 settled KXBTC15M markets.
 - [PMData](https://pmdata.dev/) - Polymarket historical data at tick level: order book snapshots and updates, trades, and Chainlink data, collected colocated and ready for backtesting. Free tier of 600 downloads then 50 a month for data older than three weeks; $49/month for current data.
+- [NeuPortal Forecast Ledger](https://neuportal.ai/experiment) - Public log of 7,400+ AI model forecasts on Polymarket questions, each stored with the market price at the time of the call, SHA-256-hashed and timestamped into Bitcoin with OpenTimestamps, then Brier-scored when the market resolves; so far the market scores better than the models. Free; data CC BY 4.0 on [Zenodo](https://doi.org/10.5281/zenodo.24051884), proof files on [GitHub](https://github.com/neuportalai-ui/experiment-proofs).
 
 ## AI Agents & MCP Servers
 
