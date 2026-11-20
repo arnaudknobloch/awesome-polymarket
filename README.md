@@ -184,6 +184,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [oracle3](https://github.com/YichengYang-Ethan/oracle3) - Autonomous trading agent with Wang Transform pricing, eight constraint-based arbitrage strategies, and Kelly-sized execution. Apache 2.0, with an SSRN working paper.
 - [Lightning Rod Foresight Models](https://www.lightningrod.ai/models) - Forecasting models behind an OpenAI-compatible API.
 - [Krexa](https://www.krexa.xyz) - Turns a trading idea, post or video into fixed rules, backtests and paper-trades them free, then runs a Polymarket agent with its own MPC wallet and per-order limits enforced in code. Also trades Hyperliquid, major CEXs and Solana DEXs; includes an MCP server and agent skill.
+- [Miramarket](https://github.com/miramarket/mcp-server) - Hosted MCP server that turns a trading idea in plain English into a strategy an agent can validate, simulate and run on Hyperliquid perps, tokenized stocks on Base and Polymarket, with live runs capped by a budget the owner sets. Free to connect; a small fee applies to trades placed through it.
 
 ## Browser Extensions
 
