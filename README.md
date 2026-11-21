@@ -57,6 +57,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [OddsFantasy](https://oddsfantasy.com/) - Scans Polymarket and Kalshi sports markets against Pinnacle's no-vig line and 50+ sportsbooks and exchanges for value bets and arbs, with taker fees and commission taken off first. Free terminal, calculators and feed previews; full feeds $80 per 30 days.
 - [Bellwether Arbitrage Scanner](https://bellwether.market/tools/kalshi-polymarket-arbitrage/) - Hand-paired Polymarket and Kalshi markets with both books' bid/ask per outcome, the cheapest YES+NO lock, and net per $1 after both venues' taker fees. Free, no signup, refreshed every 15 minutes.
 - [Kalshi vs Polymarket US Fee Calculator](https://evdesk.ai/tools/kalshi-vs-polymarket-fee-calculator) - Works out the taker fee on the same order at Kalshi and at Polymarket US from a price, a size and your 30 day volume tier, using the Polymarket US tiers in force since Nov 6, 2026 (0.095 down to 0.0695), and shows the gap for each tier. Free, no signup, runs in the browser.
+- [PairWatch](https://pairwatchalerts.com) - Hand-verified Polymarket x Kalshi same-question pairs with line-by-line settlement-rule diffs; free Telegram alerts only when the net spread is 0.5%+ after both venues' taker fees at 500 shares walked on real order books. Read-only, no trading. Free.
 
 ## Trading Bots & Automation
 
@@ -189,6 +190,8 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [Lightning Rod Foresight Models](https://www.lightningrod.ai/models) - Forecasting models behind an OpenAI-compatible API.
 - [Krexa](https://www.krexa.xyz) - Turns a trading idea, post or video into fixed rules, backtests and paper-trades them free, then runs a Polymarket agent with its own MPC wallet and per-order limits enforced in code. Also trades Hyperliquid, major CEXs and Solana DEXs; includes an MCP server and agent skill.
 - [OpenFinance MCP](https://openfinance.tech/agents/polymarket-mcp-server) - Hosted MCP server (`https://api.openfinance.tech/agent/mcp`) that lets Claude, ChatGPT, Cursor and other agents search Polymarket events, read odds, order books and the trader leaderboard, look up any wallet's positions and PnL, and place, cancel and redeem orders on the user's own account. Sign-in by OAuth or API key, no KYC on OpenFinance, 0.25% fee per Polymarket trade. Also trades Hyperliquid perps.
+- [polymarket-agent](https://github.com/Mattbusel/polymarket-agent) - One Rust binary that is a CLI and a stdio MCP server: market search, order books, prices, geoblock check, and locally signed CLOB v2 limit and market orders, cancels, positions and trades, all as JSON. Free and MIT; orders carry a builder code that adds Polymarket's builder fee on taker fills unless changed.
+- [Miramarket](https://github.com/miramarket/mcp-server) - Hosted MCP server that turns a trading idea in plain English into a strategy an agent can validate, simulate and run on Hyperliquid perps, tokenized stocks on Base and Polymarket, with live runs capped by a budget the owner sets. Free to connect; a small fee applies to trades placed through it.
 
 ## Browser Extensions
 
