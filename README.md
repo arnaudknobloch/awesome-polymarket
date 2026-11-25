@@ -68,6 +68,7 @@ Polymarket is a prediction market where users trade on the outcome of future eve
 - [polymarket-settlement-bot](https://github.com/LuciferForge/polymarket-settlement-bot) - Auto-redeems resolved positions back to USDC.
 - [Melbo](https://melbo.io/) - Melbo is a non-custodial interface to prediction markets: trade Yes/No shares on real-world events, where the price shows the market's probability. Free to use; trading fees (1% on market orders + liquidity fee).
 - [pm-hftbacktest](https://github.com/mileswangs/pm-hftbacktest) - High-frequency trading and market-making backtesting for Polymarket, written in Rust with a Python API. Replays tick-level L2 order book and trade data with queue position, latency and fee models. Free and open source (MIT).
+- [EVPLUS](https://www.evplus.ai/) - Hosted Polymarket trading bot: runs five strategies 24/7 from your own wallet with a trade-only key that cannot withdraw. Last 30 days of results, after fees and losses included, are public on its Track Record. Paid: $3.30 per bot per day, billed only while it runs.
 
 ### Official
 
