@@ -192,6 +192,7 @@ Tools that try to separate skill from luck before you follow a wallet.
 - [OpenFinance MCP](https://openfinance.tech/agents/polymarket-mcp-server) - Hosted MCP server (`https://api.openfinance.tech/agent/mcp`) that lets Claude, ChatGPT, Cursor and other agents search Polymarket events, read odds, order books and the trader leaderboard, look up any wallet's positions and PnL, and place, cancel and redeem orders on the user's own account. Sign-in by OAuth or API key, no KYC on OpenFinance, 0.25% fee per Polymarket trade. Also trades Hyperliquid perps.
 - [polymarket-agent](https://github.com/Mattbusel/polymarket-agent) - One Rust binary that is a CLI and a stdio MCP server: market search, order books, prices, geoblock check, and locally signed CLOB v2 limit and market orders, cancels, positions and trades, all as JSON. Free and MIT; orders carry a builder code that adds Polymarket's builder fee on taker fills unless changed.
 - [Miramarket](https://github.com/miramarket/mcp-server) - Hosted MCP server that turns a trading idea in plain English into a strategy an agent can validate, simulate and run on Hyperliquid perps, tokenized stocks on Base and Polymarket, with live runs capped by a budget the owner sets. Free to connect; a small fee applies to trades placed through it.
+- [FlowFeed](https://flowfeed.cc) - Hosted MCP server that gives AI agents real-time macro, forex and crypto news, an economic calendar and central bank releases, the events behind many economics and crypto markets. Paid, $9/month.
 
 ## Browser Extensions
 
